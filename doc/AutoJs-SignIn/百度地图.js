@@ -1,0 +1,11 @@
+// home()
+launchApp("百度地图")
+waitForPackage("com.baidu.BaiduMap")
+
+sleep(4000)
+click(132,183)
+sleep(2000)
+click(923,266)
+sleep(4000)
+// click(428,677)
+textContains("西北工业大学").findOne(2000).parent().click()
